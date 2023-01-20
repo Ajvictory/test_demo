@@ -1,7 +1,7 @@
 Variables are containers for storing data values
 
-int: 		-127 to 127
-double:	-19.99 to 19.99
+int: 		-127 to 127. This stands for integar
+double:	-19.99 to 19.99. This stands for decimal.
 char:		This stores single letter or character associated with single hyphen. [e.g 'a']
 string:	This stores more than a letter or character associated with a double hyphen. [e.g "hello World"]
 bool:		This means boolean and it carries 2 values: True or False.	 
