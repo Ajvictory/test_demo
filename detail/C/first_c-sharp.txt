@@ -1,0 +1,48 @@
+// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
+Console.WriteLine("My first work");
+
+int a1 = 25;
+Console.WriteLine("Exam " + a1);
+
+int first_test = 18;
+int second_test = 17;
+int exam = 50;
+
+Console.Write(first_test + " Of 20");
+Console.WriteLine();
+Console.Write(second_test + " Of 20");
+Console.WriteLine();
+Console.WriteLine(exam + " Of 60");
+
+Console.WriteLine(first_test + second_test + exam);
+
+int x = 5, y = 6, z = 50;
+Console.WriteLine(x * y * z);
+
+string firstname = "Victory".PadRight(20);
+string surname = "Alleh";
+Console.WriteLine(firstname + surname);
+
+string f1 = "Victory".PadRight(20);
+string s1 = "Alleh".PadRight(20);
+Console.Write(f1);
+Console.WriteLine("Name");
+Console.Write(s1);
+Console.WriteLine("Surname");
+
+int myint = 9;
+double mydouble = myint; //Automatic casting
+Console.WriteLine(myint);
+Console.WriteLine(mydouble);
+
+double thedouble = 9.87;
+int theint = (int) thedouble;
+Console.WriteLine(theint);
+
+double ourdouble = 9.78;
+Console.WriteLine(Convert.ToInt32(ourdouble));
+
+Console.WriteLine("username:");
+string Username = Console.ReadLine();
+Console.WriteLine($"Username: {Username}");

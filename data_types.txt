@@ -1,0 +1,15 @@
+Data types:
+
+int
+long
+
+float
+double
+
+boolean
+
+string
+
+character
+
+You have to really undersatnd this stuff
